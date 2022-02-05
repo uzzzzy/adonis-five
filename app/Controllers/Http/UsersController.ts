@@ -1,7 +1,7 @@
 import { HttpContextContract } from "@ioc:Adonis/Core/HttpContext";
 
 export default class UsersController {
-  public async index({ request, response }) {
+  public async index({ response }) {
     return response.json({
       hello: "world",
     });
